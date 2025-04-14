@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div class="main">
+
+<!-- Header -->
+<div class="header">
+  <div class="container nav-container">
+    <div class="logo">
+      <img src="./Image/Jadoo logo.svg" alt="Jadoo Logo">
+    </div>
+
+    <!-- Hamburger Menu Toggle (Checkbox) -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <!-- Navigation Links -->
+    <ul class="nav">
+      <li><a href="#">Destinations</a></li>
+      <li><a href="#">Hotels</a></li>
+      <li><a href="#">Flights</a></li>
+      <li><a href="#">Bookings</a></li>
+      <li><a href="#" class="nav-btn">Login</a></li>
+    </ul>
+  </div>
+</div>
+
+  <!-- Hero Section -->
+  <div class="herosection">
+    
+    <!-- Background Blur Circle -->
+    <div class="blur-circle"></div>
+
+    <div class="container hero-grid">
+      <div class="hero-text slide-up">
+        <p class="hero-subtitle"><strong>Best destinations around the world</strong></p>
+        <h1><span>Travel, enjoy<br> and live a new <br> and full life</span></h1>
+        <p>Explore top destinations with affordable prices and luxury comfort. Travel the world with Jadoo.</p>
+        <a href="#" class="btn-primary">Find out more</a>
+      </div>
+      <div class="hero-image slide-in-right">
+        <img src="./Image/Woman Planes.png" alt="Travel Image">
+      </div>
+    </div>
+    
+
+
+  <!-- Category Section -->
+  <div class="category-section">
+    <div class="container">
+      <h2 class="section-title">Category</h2>
+      <p class="section-subtitle">We offer best services</p>
+
+      <div class="category-grid">
+        
+        <!-- Card 1 -->
+        <div class="category-card">
+          <img src="./Image/617938cf8befd5647f6ee006_calculated-weather.svg" alt="Weather" class="category-icon">
+          <h3>Calculated Weather</h3>
+          <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="category-card">
+          <img src="./Image/617b4ffef312fc9c2c00637b_best-flights.svg" alt="Flights" class="category-icon">
+          <h3>Best Flights</h3>
+          <p>Engrossed listening. Park gate sell they west hard for the.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="category-card">
+          <img src="./Image/617b5305a737275d341ee519_local-events.png" alt="Events" class="category-icon">
+          <h3>Local Events</h3>
+          <p>Barton vanity itself do in it. Prefferd to men it engrossed listening.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="category-card">
+          <img src="./Image/617938cf4df7bb609a9a5f21_customization.svg" alt="Customization" class="category-icon">
+          <h3>Customization</h3>
+          <p>We deliver outsourced aviation services for military customers.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Top Selling Section -->
+  <div class="top-selling-section">
+    <div class="container">
+      <h2 class="section-title">Top Selling</h2>
+      <p class="section-subtitle">Top destinations for your next holiday</p>
+
+      <div class="destination-grid">
+        <!-- Card 1: Whistler -->
+        <div class="destination-card">
+          <img src="./Image/download.jpeg" alt="Bali" class="destination-img">
+          <div class="destination-info">
+            <h3>Whistler, British Columbia</h3>
+            <div class="price-days">
+              <!-- Line 1: Price -->
+              <div class="trip-price">$5,000</div>
+              <!-- Line 2: Location Icon + Days -->
+              <div class="trip-duration">
+                <img src="Image/617f2285a3530e1aba05620c_location-mark.svg" alt="Location Icon" class="location-icon">
+                <span>10 Days Trip</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Bali -->
+        <div class="destination-card">
+          <img src="./Image/download.jpeg" alt="Bali" class="destination-img">
+          <div class="destination-info">
+            <h3>Bali, Indonesia</h3>
+            <div class="price-days">
+              <!-- Line 1: Price -->
+              <div class="trip-price">2,500</div>
+              <!-- Line 2: Location Icon + Days -->
+              <div class="trip-duration">
+                <img src="Image/617f2285a3530e1aba05620c_location-mark.svg" alt="Location Icon" class="location-icon">
+                <span>8 Days Trip</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Swiss Alps -->
+        <div class="destination-card">
+          <img src="./Image/unnamed.jpg" alt="Swiss Alps" class="destination-img">
+          <div class="destination-info">
+            <h3>Swiss Alps, Switzerland</h3>
+            <div class="price-days">
+              <!-- Line 1: Price -->
+              <div class="trip-price">$1,500</div>
+              <!-- Line 2: Location Icon + Days -->
+              <div class="trip-duration">
+                <img src="Image/617f2285a3530e1aba05620c_location-mark.svg" alt="Location Icon" class="location-icon">
+                <span>5 Days Trip</span>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Easy Booking Section with Steps and Review Side by Side -->
+  <div class="easy-review-section">
+    <div class="container easy-review-grid">
+
+      <!-- Left: Title and 3 Steps -->
+      <div class="easy-left">
+        <p class="section-subtitle">Easy and Fast</p>
+        <h2 class="section-title">Book your next trip in 3 easy steps</h2>
+
+        <div class="step-card">
+          <img src="./Image/617938d08573df8aa0b825af_icon-chosedestination.svg" class="step-icon" alt="Destination">
+          <div>
+            <h4>Choose Destination</h4>
+            <p>Select your dream location like Whistler, BC and get started.</p>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <img src="./Image/617938cec00b4023cfe65e13_icon-makepayment.svg" class="step-icon" alt="Payment">
+          <div>
+            <h4>Make Payment</h4>
+            <p>Use secure payment and receive instant confirmation.</p>
+          </div>
+        </div>
+
+        <div class="step-card">
+          <img src="./Image/617938cfc00b4049bee65e26_icon-reachairport.svg" class="step-icon" alt="Airport">
+          <div>
+            <h4>Reach Airport</h4>
+            <p>Pack your bags and we’ll handle the rest!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Testimonial -->
+      <div class="easy-right">
+        <div class="testimonial-box">
+          <img src="./Image/618103548b0c7818deb95002_trip-to-greece.png" class="review-avatar" alt="User">
+          <p class="review-text">“Made booking a breeze. The 3 steps were super simple!”</p>
+          <h4 class="review-author">– Robbin Joseph, Canada</h4>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Newsletter Section -->
+  <div class="newsletter-section">
+    <!-- Background Shapes -->
+    <div class="newsletter-shape left"></div>
+    <div class="newsletter-shape right"></div>
+
+    <div class="container newsletter-box">
+      <div class="newsletter-text">
+        <h2>Subscribe to get information, <br>
+          latest news and other interesting <br>
+          offers about <span>Cobham</span></h2>
+      </div>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+
+
+
+  <!-- Services Section
+  <div class="services">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <img src="https://i.ibb.co/WKZ4jwm/1.png" alt="Guided Tours" />
+          <h3>Guided Tours</h3>
+          <p>Professional guides help you explore with ease and safety.</p>
+        </div>
+        <div class="service-card">
+          <img src="https://i.ibb.co/Ph6WjZh/2.png" alt="Affordable Price" />
+          <h3>Affordable Prices</h3>
+          <p>Enjoy luxury vacations without breaking the bank.</p>
+        </div>
+        <div class="service-card">
+          <img src="https://i.ibb.co/kqgPGC3/3.png" alt="Custom Packages" />
+          <h3>Custom Packages</h3>
+          <p>Plan trips your way with flexible and personalized options.</p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+    
+<!-- Footer Section -->
+<footer class="footer-section">
+  <div class="container footer-grid">
+
+    <!-- Brand and Description -->
+    <div class="footer-brand">
+      <h2 class="logo">Jadoo.</h2>
+      <p>Book your trip in minute, get full <br> control for much longer.</p>
+    </div>
+
+    <!-- Links Sections -->
+    <div class="footer-links">
+      <h3>Company</h3>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Mobile</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-links">
+      <h3>Contact</h3>
+      <ul>
+        <li><a href="#">Help / FAQ</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Affiliates</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-links">
+      <h3>More</h3>
+      <ul>
+        <li><a href="#">Airline fees</a></li>
+        <li><a href="#">Airline</a></li>
+        <li><a href="#">Low fare tips</a></li>
+      </ul>
+    </div>
+
+    <!-- App and Social -->
+    <div class="footer-apps">
+      <p>Discover our app</p>
+      <div class="social-icons">
+        <a href="#"><img src="./Image/facebook Logo.svg" alt="Facebook"></a>
+        <a href="#"><img src="./Image/Instagram Logo.png" alt="Instagram"></a>
+        <a href="#"><img src="./Image/Twitter Logo.svg" alt="Twitter"></a>
+      </div>
+      <div class="app-icons">
+        <img src="./Image/Google-Play Logo.svg" alt="Google Play">
+        <img src="./Image/Play-Store Logo.svg" alt="App Store">
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>All rights reserved © 2025 jadoo.co</p>
+  </div>
+</footer>
+
+
+</div>
+</body>
+</html>
